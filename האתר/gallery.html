@@ -1,0 +1,140 @@
+﻿
+<!DOCTYPE HTML>
+
+<html>
+<head>
+  <title>Gallery</title>
+  <meta charset="utf-8">
+     <link rel="stylesheet"  href="Blizzard.css" >
+      <script  src="Blizzard.js"></script>
+  </head>
+
+<body  onLoad="mark()"   dir=rtl  >
+<div id=wrapper  > 
+<div id=headline  > 
+<br>
+
+<h1 class=center>Blizzard Entertainment</h1>
+<div> <script>document.write(menu)</script></div>
+</div>
+
+<div id=sideM> 
+<div id=sidebar >
+ <ul  id=side>
+</ul>
+ </div>
+<div id=mainDiv>
+ <h1> גלריה </h1>
+<p  dir=rtl>
+&copy; התמונות נלקחו מגוגל ומהאתר של בליזארד
+</p>
+<div class="row">
+  <div class="column">
+    <img src="1-.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="2-.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="3-.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+
+
+ </div>
+
+
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 8</div>
+      <img src="1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 8</div>
+      <img src="2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 8</div>
+      <img src="3.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">4 / 8</div>
+      <img src="4.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 8</div>
+      <img src="5.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 8</div>
+      <img src="6.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">7 / 8</div>
+      <img src="7.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">8 / 8</div>
+      <img src="8.jpg" style="width:100%">
+    </div>  
+
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+
+    <div class="column">
+      <img class="demo cursor" src="1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Blizzard games">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Heros of the storm logo">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="3.jpg" style="width:100%" onclick="currentSlide(3)" alt="The lost vikings game">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="4.jpg" style="width:100%" onclick="currentSlide(4)" alt="OverWatch team">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="5.jpg" style="width:100%" onclick="currentSlide(5)" alt="WOW View">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="6.jpg" style="width:100%" onclick="currentSlide(6)" alt="WOW view on flying hourse">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="7.jpg" style="width:100%" onclick="currentSlide(7)" alt="the elves home land">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="8.jpg" style="width:100%" onclick="currentSlide(8)" alt="paladin doing selfie">
+    </div>
+
+ </div>
+
+</div>
+
+</div>
+<footer class="footer">
+<div class="center">
+	<button onclick="goBack()"> Back</button>  <button onclick="location.href='index.html'"> Home</button>
+<br>
+&copy; נכתב ע"י טמיר אמיד כפרויקט לקורס עיצוב ופיתוח אתרים של שאולה בשנקר
+</div>
+
+</footer>
+</body>
+</html>
